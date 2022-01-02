@@ -18,7 +18,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
 
   return (
     <>
-      <div className="divide-y">
+      <div className="">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             {title}
@@ -48,7 +48,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           </div>
         </div>
         <ul>
-          {!filteredBlogPosts.length && "No posts found."}
+          {!filteredBlogPosts.length && <span className="p-4">No posts found.</span>}
           {displayPosts.map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
@@ -83,6 +83,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
           })}
         </ul>
       </div>
+      <hr className="mt-4 border-gray-600" />
       {pagination && pagination.totalPages > 1 && !searchValue && (
         <Pagination currentPage={pagination.currentPage} totalPages={pagination.totalPages} />
       )}

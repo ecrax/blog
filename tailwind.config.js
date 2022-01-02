@@ -16,10 +16,10 @@ module.exports = {
         14: "3.5rem",
       },
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["monospace", "Inter", ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        primary: colors.indigo,
         gray: colors.neutral,
       },
       typography: (theme) => ({
