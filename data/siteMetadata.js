@@ -11,10 +11,10 @@ const siteMetadata = {
   image: "/static/images/avatar.png",
   socialBanner: "/static/images/twitter-card.png",
   email: "address@yoursite.com",
-  github: "https://github.com",
-  twitter: "https://twitter.com/Twitter",
+  github: "https://github.com/ecrax",
+  twitter: "https://twitter.com/LeoKling_",
   facebook: "https://facebook.com",
-  youtube: "https://youtube.com",
+  youtube: "https://youtube.com/ecrax",
   linkedin: "https://www.linkedin.com",
   locale: "en-US",
   analytics: {
