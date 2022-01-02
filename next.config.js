@@ -58,6 +58,9 @@ module.exports = withBundleAnalyzer({
   eslint: {
     dirs: ["pages", "components", "lib", "layouts", "scripts"],
   },
+  images: {
+    domains: ["raw.githubusercontent.com"],
+  },
   async headers() {
     return [
       {
