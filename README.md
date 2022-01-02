@@ -30,7 +30,6 @@ Feature request? Check the past discussions to see if it has been brought up pre
 - [fiqrychoerudin.dev](https://www.fiqrychoerudin.dev/) - simple portfolio.
 - [irvin.dev](https://www.irvin.dev/) - Irvin Lin's personal site. Added YouTube embedding.
 
-
 Using the template? Feel free to create a PR and add your blog to this list.
 
 ## Motivation
