@@ -6,6 +6,8 @@ draft: false
 summary: A walkthrough for the Dogcat room on TryHackMe
 ---
 
+<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+
 Hey there! Today I am going to walk you through the Dogcat machine on [TryHackMe](https://tryhackme.com/room/dogcat)
 
 The first thing I always do is to export the IP to a global variable. So from now on \$IP will refer to the IP of the target machine.
