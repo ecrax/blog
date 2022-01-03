@@ -6,7 +6,7 @@ company:
 email: address@yoursite.com
 twitter: https://twitter.com/LeoKling_
 github: https://github.com/ecrax
-linkedin:
+linkedin: https://linkedin.com/in/kling-leo
 ---
 
 Leo Kling is a student from Germany, who is interested in all kind of programing, from pentesting to artificial intelligence.

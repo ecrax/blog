@@ -15,7 +15,7 @@ const siteMetadata = {
   twitter: "https://twitter.com/LeoKling_",
   facebook: "https://facebook.com",
   youtube: "https://youtube.com/ecrax",
-  linkedin: "https://www.linkedin.com",
+  linkedin: "https://linkedin.com/in/kling-leo",
   locale: "en-US",
   analytics: {
     // supports plausible, simpleAnalytics or googleAnalytics
