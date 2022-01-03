@@ -13,7 +13,7 @@ const siteMetadata = {
   email: "address@yoursite.com",
   github: "https://github.com/ecrax",
   twitter: "https://twitter.com/LeoKling_",
-  youtube: "https://youtube.com/ecrax",
+  youtube: "https://youtube.com/ecrax_official",
   linkedin: "https://linkedin.com/in/kling-leo",
   locale: "en-US",
   analytics: {
