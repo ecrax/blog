@@ -107,7 +107,7 @@ We can already see that there are three interesting services running. SMB, FTP a
 First I used SMBMap to see what share we could access:
 
 ```plain
-root@hades      :~# smbmap $IP
+root@hades:~# smbmap $IP
 [+] Guest session       IP: 10.10.115.205:445   Name: 10.10.115.205
         Disk                                                    Permissions Comment
     ----                                                    ----------- -------
@@ -121,7 +121,7 @@ The “pics” share seems interesting, but apparently this was a rabbit hole, t
 So let’s move on to the next port. It is an FTP server with anonymous login enabled (always look closely at you scan results). I just logged in with the command line, like this:
 
 ```plain
-root@hades      :~/ctf/thm/anonymous# ftp 10.10.115.205 21
+root@hades:~/ctf/thm/anonymous# ftp 10.10.115.205 21
 Connected to 10.10.115.205.
 220 NamelessOne's FTP Server!
 Name (10.10.115.205:root): anonymous
