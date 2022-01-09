@@ -10,7 +10,7 @@ const siteMetadata = {
   siteLogo: "/static/images/logo.png",
   image: "/static/images/avatar.png",
   socialBanner: "/static/images/twitter-card.png",
-  email: "address@yoursite.com",
+  email: "leo.kling.info@gmail.com",
   github: "https://github.com/ecrax",
   twitter: "https://twitter.com/LeoKling_",
   youtube: "https://youtube.com/ecrax_official",
