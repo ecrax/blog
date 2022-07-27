@@ -24,8 +24,8 @@ export default function Home({ posts }) {
           Hey, I am Leo
         </h1>
         <p className="pt-4 text-lg leading-7 text-gray-500 dark:text-gray-400">
-          ... an aspiring cyber security student enjoing programming and everything computer
-          related. <br /> <br />
+          ... a mediatechnology student enjoing programming and everything computer related. <br />{" "}
+          <br />
           This is a blog about my programming adventures, from software development to cyber
           security projects. <br />
           Have fun reading :)
